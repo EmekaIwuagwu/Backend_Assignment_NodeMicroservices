@@ -1,0 +1,21 @@
+{
+  "name": "e-commerce-microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@fastify/formbody": "^6.0.0",
+    "fastify": "^3.29.5",
+    "fastify-socket.io": "^5.0.0",
+    "kafka-node": "^5.0.0",
+    "mongoose": "^8.1.2",
+    "socket.io": "^4.7.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
